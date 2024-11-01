@@ -1,0 +1,14 @@
+.contactList {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  gap: 10px;
+  padding-left: 0px;
+  max-height: 100px;
+}
+
+@media (max-width: 768px) {
+  .contactList {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,35 @@
+.contactItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: #fff;
+  min-width: 300px;
+}
+
+.contactElement {
+  padding: 5px 30px 5px 0;
+}
+
+.contactIcon {
+  margin-right: 5px;
+}
+
+.phoneIcon {
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.deleteBtn {
+  background-color: #ddd;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.deleteBtn:hover {
+  background-color: #bbb;
+}
